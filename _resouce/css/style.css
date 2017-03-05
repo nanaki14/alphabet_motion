@@ -1,0 +1,165 @@
+/* ====================
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+/* line 9, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 30, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  line-height: 1; }
+
+/* line 37, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 42, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+nav ul {
+  list-style: none; }
+
+/* line 46, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 50, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+/* line 55, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+/* line 64, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+/* line 71, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 78, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 82, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 87, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs
+*/
+/* line 94, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 103, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_reset.scss */
+input, select {
+  vertical-align: middle; }
+
+/* line 1, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+.secMovin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; }
+  /* line 8, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+  .secMovinInner {
+    position: relative;
+    width: 80%;
+    height: 80vh; }
+    /* line 13, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+    .secMovinInner > div {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      transform: translate(-50%, -50%); }
+      /* line 20, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num0 path {
+        fill: indianred;
+        stroke: indianred; }
+      /* line 26, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num1 path {
+        fill: palegreen;
+        stroke: palegreen; }
+      /* line 32, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num2 path {
+        fill: royalblue;
+        stroke: royalblue; }
+      /* line 38, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num3 path {
+        fill: gold;
+        stroke: gold; }
+      /* line 44, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num4 path {
+        fill: aqua;
+        stroke: aqua; }
+      /* line 50, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num5 path {
+        fill: #211e55;
+        stroke: #211e55; }
+      /* line 56, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num6 path {
+        fill: darkkhaki;
+        stroke: darkkhaki; }
+      /* line 62, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num7 path {
+        fill: mediumspringgreen;
+        stroke: mediumspringgreen; }
+      /* line 68, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num8 path {
+        fill: plum;
+        stroke: plum; }
+      /* line 74, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      .secMovinInner > div.num9 path {
+        fill: lightsteelblue;
+        stroke: lightsteelblue; }
+
+/*# sourceMappingURL=style.css.map */
