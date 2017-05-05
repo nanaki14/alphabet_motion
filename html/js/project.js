@@ -69,5 +69,9 @@ $(function () {
 
   });
 
+  $('.js-btn').click(function () {
+    $('input').focus();
+  });
+
 
 });

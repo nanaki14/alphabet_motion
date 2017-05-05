@@ -9,17 +9,32 @@ body{
   font-size: 1.6rem;
 }
 
-input {
+.js-btn {
   position: absolute;
   top: 50px;
   left: 20px;
+  width: 200px;
+  padding: 10px 0;
+  background: #ffd89b; /* fallback for old browsers */
+  background: linear-gradient(to right, #ddd6f3, #faaca8);
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+input {
+  position: absolute;
+  top: 0px;
+  right: 100%;
   display: none;
   padding: 0;
   font-size: 2rem;
-  line-height: 2;
-  
+  opacity: 0;
+
   @media (max-width: 768px) {
     display: block;
+
   }
 }
 
