@@ -119,12 +119,13 @@ body {
   position: absolute;
   top: 50px;
   right: 20px;
+  display: none;
   width: calc(100% - 40px);
   height: 40px;
   padding: 10px 0;
   background: transparent;
   cursor: pointer; }
-  /* line 22, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+  /* line 23, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
   .js-btn button {
     display: block;
     width: 100%;
@@ -136,8 +137,12 @@ body {
     color: #fff;
     font-size: 1.6rem;
     text-align: center; }
+  @media (max-width: 768px) {
+    /* line 12, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+    .js-btn {
+      display: block; } }
 
-/* line 35, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+/* line 41, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
 input {
   position: absolute;
   top: 0px;
@@ -147,85 +152,85 @@ input {
   font-size: 2rem;
   opacity: 0; }
   @media (max-width: 768px) {
-    /* line 35, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+    /* line 41, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
     input {
       display: block; } }
 
-/* line 50, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+/* line 56, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
 .twitterAccount {
   position: absolute;
   bottom: 20px;
   right: 20px;
   line-height: 1.5;
   font-size: 1.8rem; }
-  /* line 57, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+  /* line 63, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
   .twitterAccount a {
     color: #2b2b2b;
     text-decoration: none; }
-    /* line 61, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+    /* line 67, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
     .twitterAccount a:hover {
       text-decoration: underline; }
 
-/* line 68, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+/* line 74, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
 .secMovin {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100vh; }
-  /* line 75, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+  /* line 81, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
   .secMovinInner {
     position: relative;
     width: 80%;
     height: 80vh; }
-    /* line 80, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+    /* line 86, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
     .secMovinInner > div {
       position: absolute;
       width: 300px;
       height: 300px;
       transform: translate(-50%, -50%); }
       @media (max-width: 768px) {
-        /* line 80, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+        /* line 86, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
         .secMovinInner > div {
           width: 150px;
           height: 150px; } }
-      /* line 92, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 98, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num0 path {
         fill: indianred;
         stroke: indianred; }
-      /* line 98, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 104, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num1 path {
         fill: palegreen;
         stroke: palegreen; }
-      /* line 104, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 110, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num2 path {
         fill: royalblue;
         stroke: royalblue; }
-      /* line 110, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 116, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num3 path {
         fill: gold;
         stroke: gold; }
-      /* line 116, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 122, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num4 path {
         fill: aqua;
         stroke: aqua; }
-      /* line 122, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 128, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num5 path {
         fill: #211e55;
         stroke: #211e55; }
-      /* line 128, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 134, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num6 path {
         fill: darkkhaki;
         stroke: darkkhaki; }
-      /* line 134, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 140, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num7 path {
         fill: mediumspringgreen;
         stroke: mediumspringgreen; }
-      /* line 140, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 146, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num8 path {
         fill: plum;
         stroke: plum; }
-      /* line 146, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
+      /* line 152, /Applications/MAMP/htdocs/alphabet_motion/_resouce/css/_secMovin.scss */
       .secMovinInner > div.num9 path {
         fill: lightsteelblue;
         stroke: lightsteelblue; }
