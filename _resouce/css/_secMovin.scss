@@ -12,15 +12,24 @@ body{
 .js-btn {
   position: absolute;
   top: 50px;
-  left: 20px;
-  width: 200px;
+  right: 20px;
+  width: calc(100% - 40px);
+  height: 40px;
   padding: 10px 0;
-  background: #ffd89b; /* fallback for old browsers */
-  background: linear-gradient(to right, #ddd6f3, #faaca8);
-  border: none;
-  color: #fff;
-  font-size: 1.6rem;
-  text-align: center;
+  background: transparent;
+  cursor: pointer;
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background: #ffd89b; /* fallback for old browsers */
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+  }
 }
 
 input {
