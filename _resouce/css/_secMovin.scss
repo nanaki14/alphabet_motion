@@ -1,5 +1,5 @@
-body{
-  overflow: hidden;  
+body {
+  overflow: hidden;
 }
 
 .read {
@@ -15,27 +15,17 @@ body{
   right: 20px;
   display: none;
   width: calc(100% - 40px);
-  height: 40px;
-  padding: 10px 0;
-  background: transparent;
-  cursor: pointer;
-
-  button {
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    background: #ffd89b; /* fallback for old browsers */
-    background: linear-gradient(to right, #ddd6f3, #faaca8);
-    border: none;
-    color: #fff;
-    font-size: 1.6rem;
-    text-align: center;
-  }
+  padding: 15px 0;
+  background: #ffd89b;
+  background: linear-gradient(to right, #ddd6f3, #faaca8);
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
 
   @media (max-width: 768px) {
     display: block;
   }
-
 }
 
 input {
@@ -49,7 +39,6 @@ input {
 
   @media (max-width: 768px) {
     display: block;
-
   }
 }
 
@@ -67,7 +56,6 @@ input {
     &:hover {
       text-decoration: underline;
     }
-
   }
 }
 
@@ -83,78 +71,86 @@ input {
     width: 80%;
     height: 80vh;
 
-    > div{
+    >div {
       position: absolute;
       width: 300px;
       height: 300px;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
 
       @media (max-width: 768px) {
         width: 150px;
         height: 150px;
       }
 
-      &.num0{
-        path{
+      &.num0 {
+        path {
           fill: indianred;
           stroke: indianred;
         }
       }
-      &.num1{
-        path{
+
+      &.num1 {
+        path {
           fill: palegreen;
           stroke: palegreen;
         }
       }
-      &.num2{
-        path{
+
+      &.num2 {
+        path {
           fill: royalblue;
           stroke: royalblue;
         }
       }
-      &.num3{
-        path{
+
+      &.num3 {
+        path {
           fill: gold;
           stroke: gold;
         }
       }
-      &.num4{
-        path{
+
+      &.num4 {
+        path {
           fill: aqua;
           stroke: aqua;
         }
       }
-      &.num5{
-        path{
+
+      &.num5 {
+        path {
           fill: #211e55;
           stroke: #211e55;
         }
       }
-      &.num6{
-        path{
+
+      &.num6 {
+        path {
           fill: darkkhaki;
           stroke: darkkhaki;
         }
       }
-      &.num7{
-        path{
+
+      &.num7 {
+        path {
           fill: mediumspringgreen;
           stroke: mediumspringgreen;
         }
       }
-      &.num8{
-        path{
+
+      &.num8 {
+        path {
           fill: plum;
           stroke: plum;
         }
       }
-      &.num9{
-        path{
+
+      &.num9 {
+        path {
           fill: lightsteelblue;
           stroke: lightsteelblue;
         }
       }
-
     }
   }
 }

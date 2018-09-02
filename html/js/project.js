@@ -1,12 +1,9 @@
+window.addEventListener('load', function () {
+  document.addEventListener('keyup', function (e) {
 
-$(function () {
-
-  $(window).keyup(function (e) {
-
-    var cName = Math.floor( Math.random() * 10 );
-    var tn = Math.floor( Math.random() * 100 );
-    var ln = Math.floor( Math.random() * 100 );
-
+    var cName = Math.floor(Math.random() * 10);
+    var tn = Math.floor(Math.random() * 100);
+    var ln = Math.floor(Math.random() * 100);
 
     //jsonファイル指定
     var path = new Array();
@@ -40,9 +37,8 @@ $(function () {
 
 
     //div生成
-    var d = document.createElement('div')
-    $('#bodyMovin').append(d);
-
+    var d = document.createElement('div');
+    document.getElementById('bodyMovin').append(d);
 
     var animData = {
       wrapper: d,
@@ -56,22 +52,17 @@ $(function () {
     var anim = bodymovin.loadAnimation(animData);
 
 
-    $(d).addClass('num' + cName);
-    $(d).css({
-      top: tn+'%',
-      left: ln+'%'
-    });
+    d.classList.add('num' + cName);
+    d.style.top = tn + '%';
+    d.style.left = ln + '%';
 
     anim.play();
-    anim.addEventListener('complete',function () {
-      $(d).remove();
+    anim.addEventListener('complete', function () {
+      d.remove();
     })
-
   });
 
-  $('.js-btn').click(function () {
-    $('input').focus();
+  document.querySelector('.js-btn').addEventListener('click', function () {
+    document.querySelector('input').focus()
   });
-
-
 });
